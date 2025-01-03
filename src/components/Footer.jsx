@@ -21,6 +21,7 @@ const Footer = () => {
         <li style={{listStyle:'none'}}><FaArrowCircleRight className='ficon'/><Link className='foot_links' to='/about'> About</Link></li>
         <li style={{listStyle:'none'}}><FaArrowCircleRight className='ficon'/><Link className='foot_links' to='/contact'> Contact</Link></li>
         <li style={{listStyle:'none'}}><FaArrowCircleRight className='ficon'/><Link className='foot_links' to='/product'> Products</Link></li>
+        <li style={{listStyle:'none'}}><FaArrowCircleRight className='ficon'/><Link className='foot_links' to='/cart'> Cart</Link></li>
       </ul>
       </div>
       <div className='address_sec'>

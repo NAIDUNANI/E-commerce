@@ -5,6 +5,7 @@ import { MdLogin } from "react-icons/md";
 import { GiArchiveRegister } from "react-icons/gi";
 import { TbLogout2 } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
+import { FaLuggageCart } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -47,6 +48,7 @@ const Navbar = () => {
         </li>
         <li><NavLink className='links' to='/about' >About</NavLink></li>
         <li><NavLink className='links' to='/contact'>Contact</NavLink></li>
+        <li><NavLink className='links' to='/cart'><FaLuggageCart /></NavLink></li>
         {
           (isLogedin)?(<div className='buttons'>
             <button onClick={handlelogout} className='regi_but'><Link className='links1' to='/logout'><TbLogout2 style={{verticalAlign:'middle'}}/>&nbsp; Logout</Link></button>

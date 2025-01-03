@@ -9,6 +9,7 @@ import Electronics from './components/Electronics'
 import Contact from './components/Contact';
 import Clothing from './components/Clothing';
 import Allproducts from './components/Allproducts';
+import Cart from './components/Cart';
 
 function App() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function App() {
         <Route path='login' element={<Login/>} />
         <Route path='register' element={<Registeation/>}/>
         <Route path='contact' element={<Contact/>}/>
+        <Route path='cart' element={<Cart/>}></Route>
         <Route path='electronic' element={<Electronics/>}/>
         <Route path='clothing' element={<Clothing/>}/>
         <Route path='products' element={<Allproducts/>}/>
