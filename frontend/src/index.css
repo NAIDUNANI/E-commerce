@@ -1,0 +1,664 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    width: 100vw;
+    height: 6rem;
+    justify-content: space-between;
+    background-color: rgb(44, 43, 43);
+}
+.logo{
+    margin-left: 1rem;
+    width: 100px;
+    border-radius: 20px;
+}
+.nav_menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+    margin-top: -0.3rem;
+    gap: 5px;
+}
+.log_but, .regi_but{
+    font-size: 18px;
+    border-radius: 5px;
+    background-color:aquamarine;
+    padding: 5px;
+    border: none;
+}
+.log_but:hover, .regi_but:hover{
+    background-color: rgb(211, 213, 214);
+}
+.links:hover{
+    color: orangered;
+}
+.links{
+    text-decoration: none;
+    color: whitesmoke;
+    vertical-align: middle;
+}
+.dropdown{
+    cursor: pointer;
+    color: aliceblue;
+    vertical-align: middle;
+    margin-top: 7px;
+    margin-left: -3px;
+}
+.dropdown:hover{
+    color: orangered;
+}
+.links1{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+.drop_link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.dropdown_menu{
+    position: absolute;
+    top: 70px;
+    background-color: rgb(225, 224, 224);
+    width: 130px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 3px;
+}
+.cloth_link{
+    height: 40px;
+    border-bottom: 1px solid rgb(94, 89, 89);
+    display: flex;
+    align-items: center;
+}
+.electro_link{
+    margin-top: 5px;
+}
+.home_bd{
+    background-color: rgb(227, 228, 230);
+    height: auto;
+    padding-top: 1rem;
+}
+
+#section1{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.div1{
+    display: inline-block;
+}
+.top{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.top:hover{
+    scale: 1.05;
+}
+.top_names{
+    text-align: center;
+    justify-content: center;
+}
+
+.section2{
+    background-color: rgb(183, 187, 196);
+    margin-bottom: 20px;
+}
+
+.section3{
+    background-color: #fff;
+    height: 60vh;
+    width: 99vw;
+    margin-bottom: 20px;
+}
+.mobiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 45vh;
+    width: 99vw;
+}
+.mobile1{
+    border: 1px solid rgba(75, 74, 74, 0.2);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.mobile1:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 10px 2px;
+}
+.fig1{
+    margin: 10px;
+}
+.mobile_pic{
+    width: 150px;
+    height: 180px;
+}
+.mobile_names{
+    text-align: center;
+}
+.mobile_cost{
+    text-align: center;
+    font-weight: bold;
+}
+
+.section4{
+    background-color: #fff;
+    height: 120vh;
+    width: 99vw;
+    margin-bottom: 20px;
+}
+.Tv_s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 99vw;
+}
+.tv1{
+    border: 1px solid rgba(75, 74, 74, 0.2);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.tv1:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 10px 2px;
+}
+.Tv_fig1{
+    margin: 10px;
+}
+.Tv_names{
+    text-align: center;
+}
+.Tv_cost{
+    text-align: center;
+    font-weight: bold;
+}
+.contact_home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+.home_cont_btn{
+    background-color: rgb(69, 69, 228);
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border-radius:5px ;
+}
+.home_cont_btn:hover{
+    background-color: orangered;
+    scale: 1.05;
+}
+
+.about_sec{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about_head{
+    margin-top: -60px;
+}
+.about_div{
+    margin-top: 50px;
+    width: 900px;
+    text-align: justify;
+    font-size: 22px;
+
+}
+.about_sec h1{
+    font-size: 50px;
+}
+.active{
+    color: rgb(249, 102, 62);
+    border-bottom: 3px solid rgb(249, 102, 62);
+    padding-bottom: 5px;
+}
+.foot{
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.8)),url(https://www.edesk.com/wp-content/uploads/2019/12/profitable-ecommerce-ideas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.sub_foot{
+    width: 200px;
+    height: 205px;
+}
+.foot_logo{
+    margin-left: 7rem;
+    margin-top: 3rem;
+    width: 200px;
+    border-radius: 20px;
+}
+.address_sec{
+    margin-top: 25px;
+    margin-left: 20rem;
+}
+.add, .ph, .mail{
+    margin-left: 0.5rem;
+    font-size: 22px;
+    color: rgb(174, 185, 194);
+    vertical-align: middle;
+}
+.fmenu_bar{
+    margin-left: 25rem;
+
+}
+.ficon{
+    vertical-align: middle;
+    color: aliceblue;
+}
+ .foot_links:hover{
+    color: orangered;
+}
+.foot_links{
+    text-decoration: none;
+    color: rgb(174, 185, 194);
+    font-size: 25px;
+    vertical-align: middle;
+}
+.profile_li{
+    background-color: rgb(59, 59, 59);
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.picon{
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+}
+.picon:hover{
+    color: rgb(49, 49, 218);
+}
+.product_main_bd{
+    width: 100vw;
+    background-color: #d0b2b0;
+}
+.main_parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.input_flied{
+    margin-top: 20px;
+    margin-left: 510px;
+    width: 550px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.product_parent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 550px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#ffddaa;
+    transition: 2s;
+}
+.product_parent:hover{
+    scale: 1.02;
+    box-shadow: 0px 4px 20px 2px;
+}
+.product_parent h2{
+    width: 280px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.sub_section{
+    width: 300px;
+    padding: 10px;
+}
+.sub_section p{
+    margin-top: -10px;
+}
+.produ_price{
+    border-radius: 5px;
+    background-color: rgb(0, 202, 0);
+    border: none;
+}
+.price_cart_btn{
+    width: 250px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cart_btn{
+    background-color: rgb(250, 75, 104);
+    color: white;
+
+}
+.login_page{
+    background-image: url(https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?t=st=1734180836~exp=1734184436~hmac=185d9d8322a533da28f66887f3b81d274bd76586ac5273982ed7993f94d0c080&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    height: 230px;
+}
+.login_form{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 400px;
+    height: 530px;
+}
+.log_bd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fr_indiv, .fr_passdiv{
+    margin-bottom: 15px;
+}
+.user_in, .user_pass{
+    width: 250px;
+    padding-left: 15px;
+    border: none;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+.logpg_btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.login_reg_btn{
+    text-decoration: none;
+    cursor: pointer;
+}
+.reg_body{
+    background-image: url(./pic/register_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_div{
+    padding-top: 2rem;
+    width: 450px;
+    height: 650px;
+    background-color:rgb(224, 221, 221);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.form_div:hover{
+    box-shadow: 0px 0px 30px 2px;
+}
+.form_bd{
+    width: 400px;
+    height: 530px;
+    padding-top: 1rem;
+}
+.form_group {
+    margin-bottom: 1px;
+}
+.in_name, .in_mail, .in_num, .in_pass, .in_cpass{
+    margin-left: 1rem;
+    width: 350px;
+    height: 35px;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.in_name:focus,.in_mail:focus,.in_num:focus,.in_pass:focus,.in_cpass:focus{
+    outline: none;
+}
+.la_name, .la_email, .la_num, .la_pass, .la_cpass{
+    margin: 8px;
+    font-size: 20px;
+}
+.sub_div{
+    margin-top: 20px;
+    width: 470px;
+    height: 50px;
+    margin-left: -35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFA500;
+}
+.submit_btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pg{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 226, 228);
+}
+.cont_img{
+    background-image: url(./pic/contact_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+}
+.sub_contact{
+    background: linear-gradient(45deg,#d0b2b0,#fff,#d0b2b0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.cards_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    margin-top: -5px;
+    gap: 30px;
+}
+.loct_card, .moblie_card, .email_card{
+    background-color:rgb(238, 238, 254);
+    width: 250px;
+    height: 120px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid blueviolet;
+}
+.loct_card:hover, .moblie_card:hover, .email_card:hover{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -20px;
+    border-bottom: 5px solid orangered;
+}
+.message_bd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 5px;
+    height: 430px;
+    background-color: rgb(238, 238, 254);
+    margin-bottom: 1rem;
+    gap: 15px;
+    border-bottom: 5px solid blueviolet;
+}
+.message_bd:hover{
+    margin-top: -10px;
+    border-bottom: 5px solid orangered;
+}
+.cont_name, .cont_sub, .cont_mail{
+    width: 700px;
+    height: 45px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.cont_mess{
+    width: 700px;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.send_btn{
+    font-size: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 255);
+    color: aliceblue;
+    border: none;
+    scale: 1.2;
+}
+.send_btn:hover{
+    background-color: orangered;
+}
+
+/* cart css */
+.cart_bd{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #fcbd47;
+}
+.cart_head{
+    display: flex;
+    justify-content: center;
+}
+.cart_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e0c6c4;
+    gap: 70px;
+    width: 1130px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 2s;
+}
+.cart_item:hover{
+    box-shadow: 0px 0px 26px 2px;
+    scale: 1.01;
+}
+.item_img{
+    border-radius: 10px;
+}
+.item_title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.item_price{
+    background-color: rgb(0, 202, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.del_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.del_btn:hover{
+    background-color: orangered;
+    color: #fff;
+}
+.total_price{
+    float: right;
+    width: 500px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 1px solid;
+}
+.pri_display{
+    float: right;
+    margin-right: 10px;
+}
+
+
